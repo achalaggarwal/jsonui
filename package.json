@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "Converts a JSON to Interface Builder File - XIB",
   "main": "lib/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:achalaggarwal/jsonui.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
