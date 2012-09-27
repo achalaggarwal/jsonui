@@ -1,0 +1,55 @@
+{
+  "width"                 : 1024,
+  "height"                : 768,
+  "device"                : 1, //0 - iphone, 1 - ipad
+  "objects"               : [
+    {
+      "type"              : "label",
+      "name"              : "Label1",
+      "frame"             : "{{0, 20}, {400, 200}}",
+      "backgroundcolor"   : [1.0, 1.0, 1.0, 1.0],
+      "text"              : "Hello Label",
+      "font"              : "Helvetica",
+      "fontsize"          : 12,
+      "fontcolor"         : [0, 0, 0, 1.0]
+    },
+    {
+      "type"              : "textfield",
+      "name"              : "TextField1",
+      "frame"             : "{{400, 20}, {400, 200}}",
+      "backgroundcolor"   : [1.0, 1.0, 1.0, 1.0],
+      "text"              : "Hello TextField",
+      "placeholder"       : "placeholder",
+      "font"              : "Helvetica",
+      "fontsize"          : 12,
+      "fontcolor"         : [0, 0, 0, 1.0]
+    },
+    {
+      "type"              : "button",
+      "name"              : "Button1",
+      "frame"             : "{{0, 220}, {400, 200}}",
+      "backgroundcolor"   : [1.0, 1.0, 1.0, 0.0],
+      "text"              : "Hello Button",
+      "background"        : "",
+      "image"             : "",
+      "font"              : "Helvetica",
+      "fontsize"          : 12,
+      "fontcolor"         : [0, 0, 1, 1.0]
+    },
+    {
+      "type"              : "view",
+      "name"              : "View1",
+      "frame"             : "{{0, 420}, {400, 200}}",
+      "backgroundcolor"   : [0, 1.0, 0, 1.0],
+      "objects"           : [
+        {
+          "type"              : "image",
+          "name"              : "image2",
+          "frame"             : "{{0, 0}, {100, 100}}",
+          "backgroundcolor"   : [1.0, 1.0, 1.0, 1.0],
+          "image"             : "image1.png"
+        }
+      ]
+    }
+  ]
+}
