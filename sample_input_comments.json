@@ -1,9 +1,11 @@
 {
-  "width"                 : 1024,
-  "height"                : 768,
-  "device"                : 1, //0 - iphone, 1 - ipad
+  "appname"               : "NewApp",
+  "width"                 : 320,
+  "height"                : 480,
+  "device"                : 1,
   "navbar"                : {
-      "background"        : "topbar.png",
+      "hidden"            : 0,
+      "background"        : "topbar.png"
   },
   "objects"               : [
     {
