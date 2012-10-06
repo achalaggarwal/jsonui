@@ -1,0 +1,19 @@
+       _  _____  ____  _   _   _    _ _____ 
+      | |/ ____|/ __ \| \ | | | |  | |_   _|
+      | | (___ | |  | |  \| | | |  | | | |  
+  _   | |\___ \| |  | | . ` | | |  | | | |  
+ | |__| |____) | |__| | |\  | | |__| |_| |_ 
+  \____/|_____/ \____/|_| \_|  \____/|_____|
+                                            
+
+To generate an iOS XCode Project from a JSON File
+
+Usage
+=====
+
+  var jsonui = require("jsonui");
+
+  jsonui.convertToApp(__dirname + '/input.json', function(err, outputPath) {
+    if (err) { console.log(err); return; }
+    console.log(outputPath);
+  });
