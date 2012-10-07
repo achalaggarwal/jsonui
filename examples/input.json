@@ -1,17 +1,17 @@
 {
-  "appname"               : "NewApp",
-  "width"                 : 320,//size for orientation
+  "appname"               : "DemoApp",
+  "width"                 : 320,
   "height"                : 480,
-  "device"                : 1,// 0 - iphone, 1 - ipad, 2 - iphone5
+  "device"                : 0,
   "navbar"                : {
       "hidden"            : 0,
-      "background"        : "topbar.png"
+      "background"        : ""
   },
   "objects"               : [
     {
       "type"              : "label",
       "name"              : "Label1",
-      "frame"             : "{{0, 20}, {400, 200}}",
+      "frame"             : "{{0, 0}, {200, 50}}",
       "backgroundcolor"   : [1.0, 1.0, 1.0, 1.0],
       "text"              : "Hello Label",
       "font"              : "Helvetica",
@@ -21,7 +21,7 @@
     {
       "type"              : "textfield",
       "name"              : "TextField1",
-      "frame"             : "{{400, 20}, {400, 200}}",
+      "frame"             : "{{0, 60}, {200, 50}}",
       "backgroundcolor"   : [1.0, 1.0, 1.0, 1.0],
       "text"              : "Hello TextField",
       "placeholder"       : "placeholder",
@@ -32,7 +32,7 @@
     {
       "type"              : "button",
       "name"              : "Button1",
-      "frame"             : "{{0, 220}, {400, 200}}",
+      "frame"             : "{{0, 150}, {320, 75}}",
       "backgroundcolor"   : [1.0, 1.0, 1.0, 0.0],
       "text"              : "Hello Button",
       "background"        : "",
@@ -44,7 +44,7 @@
     {
       "type"              : "view",
       "name"              : "View1",
-      "frame"             : "{{0, 420}, {400, 200}}",
+      "frame"             : "{{0, 300}, {320, 200}}",
       "backgroundcolor"   : [0, 1.0, 0, 1.0],
       "objects"           : [
         {
@@ -52,7 +52,7 @@
           "name"              : "image2",
           "frame"             : "{{0, 0}, {100, 100}}",
           "backgroundcolor"   : [1.0, 1.0, 1.0, 1.0],
-          "image"             : "image1.png"
+          "image"             : ""
         }
       ]
     }
