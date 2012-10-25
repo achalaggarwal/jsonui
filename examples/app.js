@@ -1,6 +1,11 @@
 var jsonui = require("../");
+var fs = require('fs');
 
-jsonui.convertToApp(__dirname + '/input.json', function(err, outputPath) {
+fs.readFile(__dirname + '/input.json', 'ascii' , function(err, data) {
   if (err) { console.log(err); return; }
-  console.log(outputPath);
+  
+  jsonui.convertToApp(JSON.parse(data), null, function(err, outputPath) {
+    if (err) { console.log(err); return; }
+      console.log(outputPath);
+  });
 });
