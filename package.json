@@ -1,6 +1,6 @@
 {
   "name": "jsonui",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Converts a JSON to Interface Builder File - XIB",
   "main": "lib/main.js",
   "repository": {
