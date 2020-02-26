@@ -17,3 +17,8 @@ Usage
     if (err) { console.log(err); return; }
     console.log(outputPath);
   });
+
+Author 
+======
+
+Achal Aggarwal 
